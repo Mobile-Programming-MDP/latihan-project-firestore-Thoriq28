@@ -23,20 +23,11 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,19 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA6QpT0u5aqX8_tY0kYPbCRwhMvQ-f0ddw',
-    appId: '1:848539166243:web:f7db88a935bf34da3c3396',
-    messagingSenderId: '848539166243',
-    projectId: 'notes-d2a3a',
-    authDomain: 'notes-d2a3a.firebaseapp.com',
-    storageBucket: 'notes-d2a3a.appspot.com',
+    apiKey: 'AIzaSyCXzV_ZKf7iWFlxUzTxU30TDlF2TINHBu0',
+    appId: '1:88781154999:web:e76feacfbdc05ca6c97b32',
+    messagingSenderId: '88781154999',
+    projectId: 'notes-efbf1',
+    authDomain: 'notes-efbf1.firebaseapp.com',
+    storageBucket: 'notes-efbf1.appspot.com',
+    measurementId: 'G-90WJR5VNGQ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD_XHI67JZapFYiyQC-GLFebcQ9JWkA0SE',
-    appId: '1:848539166243:android:51ada6d9b70cbc473c3396',
-    messagingSenderId: '848539166243',
-    projectId: 'notes-d2a3a',
-    storageBucket: 'notes-d2a3a.appspot.com',
+    apiKey: 'AIzaSyAEMf_NKoJ8OZWZlxE-tu5a4Ut_ZL7ZKzU',
+    appId: '1:88781154999:android:a6b53f5366893f32c97b32',
+    messagingSenderId: '88781154999',
+    projectId: 'notes-efbf1',
+    storageBucket: 'notes-efbf1.appspot.com',
   );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyCR6g6rb7FmlX8J2KjC6hYm6ajFXoZujxw',
+    appId: '1:88781154999:ios:25fdb6c7812fb51fc97b32',
+    messagingSenderId: '88781154999',
+    projectId: 'notes-efbf1',
+    storageBucket: 'notes-efbf1.appspot.com',
+    iosBundleId: 'com.example.notes',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCR6g6rb7FmlX8J2KjC6hYm6ajFXoZujxw',
+    appId: '1:88781154999:ios:25fdb6c7812fb51fc97b32',
+    messagingSenderId: '88781154999',
+    projectId: 'notes-efbf1',
+    storageBucket: 'notes-efbf1.appspot.com',
+    iosBundleId: 'com.example.notes',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCXzV_ZKf7iWFlxUzTxU30TDlF2TINHBu0',
+    appId: '1:88781154999:web:221ff4610628ba4cc97b32',
+    messagingSenderId: '88781154999',
+    projectId: 'notes-efbf1',
+    authDomain: 'notes-efbf1.firebaseapp.com',
+    storageBucket: 'notes-efbf1.appspot.com',
+    measurementId: 'G-C323XSHVJJ',
+  );
+
 }
