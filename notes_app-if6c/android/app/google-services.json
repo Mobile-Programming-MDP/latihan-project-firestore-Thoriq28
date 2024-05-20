@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88781154999",
+    "project_id": "notes-efbf1",
+    "storage_bucket": "notes-efbf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88781154999:android:a6b53f5366893f32c97b32",
+        "android_client_info": {
+          "package_name": "com.example.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEMf_NKoJ8OZWZlxE-tu5a4Ut_ZL7ZKzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
